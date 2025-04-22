@@ -99,7 +99,7 @@
 .inputs input{
     width: 250px;
     height: 30px;
-    border-radius: 7px;
+    /* border-radius: 7px; */
     margin-left: -20px;
     
     
@@ -151,19 +151,20 @@
 
 
 .logo{
-    width: 15%;
-    display: none !important;
+    width: 25%;
+    margin-top: 200px;
+    margin-left: 18rem;
 }
 
 .forgot-password{
     padding-left: 10px;
     /* margin-top: -25px; */
-    color: #4c00b4;
+    color: #000000;
     font-size: 14px !important;
     cursor: pointer;
     position: relative;
-    top: -45px !important; /* Moves it up */
-    left: -2px;
+    top: 8px !important; /* Moves it up */
+    left: -75px;
 
 }
 
@@ -212,7 +213,7 @@
     width: 85% !important;
     height: 49px;
     color: #ffffff;
-    background: #1877F2;
+    background: #000000;
     font-size: 16px;
     font-weight: 700;
     cursor: pointer;
@@ -229,7 +230,7 @@
         display: flex;
         /* flex-direction: column; */
         margin: auto;
-        top: 100px;
+        top: 20px;
         margin: 100px auto;
         padding: 30px;
         width: 250px;
@@ -238,7 +239,7 @@
         overflow: hidden;
         justify-content: center;
         align-items: center;
-        height: 43vh;
+        height: 33vh;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
         border-radius: 8px;
         /* border: 1px; */
@@ -329,7 +330,7 @@
     .inputs input{
         width: 250px;
         height: 30px;
-        border-radius: 7px;
+        /* border-radius: 7px; */
         margin-left: -20px;
         
         
@@ -381,48 +382,26 @@
     
     
     .logo{
-        width: 50px;
-        position: absolute;
-        top: 127px;
-        left: 160px;
-        display: block !important;
+        width: 210px;
+        position: fixed;
+        top: 520px;
+        right: 90px;
+        /* display: block !important; */
         
     }
     
     .forgot-password{
         padding-left: 10px;
         /* margin-top: -25px; */
-        color: #4c00b4;
+        color: #09060e;
         font-size: 14px !important;
         cursor: pointer;
         position: absolute;
-        top: 200px !important; /* Moves it up */
-        left: 95px;
+        top: 118px !important; /* Moves it up */
+        left: 20px;
     
     }
     
-    
-    .Sign-up{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        /* margin-left: 32%; */
-        right: 45px;
-        /* margin-top: -59px; */
-        width:70% !important;
-        height: 49px;
-        color: #ffffff;
-        background: rgb(12, 206, 28);
-        font-size: 16px;
-        font-weight: 700;
-        cursor: pointer;
-        position: absolute;
-        bottom:   6px;
-        border-radius: 6px;
-        border: none;
-        z-index: 1000;
-        position: fixed;
-    }
     
     
     .submit-container{
@@ -453,7 +432,7 @@
         padding: 10px 20px;
         height: 59px;
         color: #ffffff;
-        background: #1877f3;
+        background: #000000;
         font-size: 16px;
         font-weight: 700;
         cursor: pointer;
@@ -461,7 +440,7 @@
         /* bottom:  7px; */
         /* position: fixed; */
         transform: translateX(-50%);
-        margin-top: 105px;
+        margin-top: 130px;
            
     
     }

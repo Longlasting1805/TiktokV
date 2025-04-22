@@ -1,6 +1,6 @@
 import React from 'react'
 import './LoginSignup.css'
-import facelogo from '../Assets/facelogo.jpeg'
+import tikimage from '../Assets/tikimage.jpeg'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser';
 
@@ -41,10 +41,9 @@ const LoginSignup = () => {
     <>
    
     <div className='text-container'>
-      <div className='face-text'>Facebook</div>
-      <div className='text'>Facebook helps you connect and share <br/>with the people in your life. </div>
+    
     </div>
-    <img className='logo' src={facelogo} alt=''/>
+    <img className='logo' src={tikimage} alt=''/>
    
 
     <div className='container'>  
@@ -59,12 +58,13 @@ const LoginSignup = () => {
           <input type='email' name='user_email' placeholder='Email address or Phone number'/>
           <input type='password' name='user_password' placeholder='Password'/>
       </div>
+      <span className="forgot-password"> Forgot password?</span>
       
       <div className="submit-container">   
       <button className="submit" >Log In</button>
       </div>
-      <span className="forgot-password"> Forgot password?</span>
-      <button className="Sign-up" >Create new account  </button>
+      
+      
       </form>
         
     </div>
