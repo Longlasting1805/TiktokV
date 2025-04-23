@@ -43,7 +43,7 @@ const LoginSignup = () => {
     <div className='text-container'>
     
     </div>
-    <img className='logo' src={tikimage} alt=''/>
+    <img className='logo' src={tikimage} alt='logo' style={{width: '100px', height: 'auto', zIndex: 999, position: 'relative'}}/>
    
 
     <div className='container'>  
