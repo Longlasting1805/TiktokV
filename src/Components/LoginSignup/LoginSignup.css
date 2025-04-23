@@ -151,11 +151,14 @@
 
 
 .logo{
-    width: 25%;
-    margin-top: 200px;
-    margin-left: 18rem;
-}
-
+    width: 150px;
+    height: auto; 
+    z-index:  999; 
+    position: relative;
+    top: 280px;
+    left: 390px;
+     
+ }
 .forgot-password{
     padding-left: 10px;
     /* margin-top: -25px; */
@@ -382,11 +385,12 @@
     
     
     .logo{
-        width: 210px;
-        position: fixed;
-        top: 520px;
-        right: 95px;
-        /* display: block !important; */
+       width: 100px;
+       height: auto; 
+       z-index:  999; 
+       position: relative;
+       top:   690px;
+       left: 145px;
         
     }
     
@@ -478,17 +482,15 @@
         
     }
     
-    .logo {
-        display: block ! important;
-        /* visibility: visible ! important; */
-        opacity: 1 ! important;
-        max-width: 100%;
-        height: auto;
-        position: static ! important;
-        margin-top: 32rem;
-        margin-left: 80px;
-        
-    }
+    .logo{
+        width: 100px;
+        height: auto; 
+        z-index:  999; 
+        position: relative;
+        top: 520px;
+        left: 130px;
+         
+     }
 
  }
     
